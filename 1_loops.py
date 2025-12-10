@@ -1,7 +1,7 @@
 # Example Practice:
 # Given this list of fruits:
 fruits = ["apple", "banana", "cherry", "date"]
-
+print(len(fruits))
 # Challenge:
 # Use a for loop to print each fruit on a new line.
 print(fruits[0])
@@ -14,11 +14,31 @@ for fruit in fruits:
 # Given a list of school subjects:
 subjects = ["Math", "Science", "History", "Art"]
 for subject in subjects:
+    if subject == "history":
+        break
     print(subject)
+
+    for subject in subjects:
+        if subjects == "science":
+            continue
+        print(subject)
+
+
+        list1000 = list(range(1, 1001))
+        
+        for number in list1000:
+            if number > 599:
+                break
+            print(number)
+
+            for numbers in list1000:
+               if 300<= number <= 500:
+                   continue
+               print(number)
+
 # Challenge:
 # Use a for loop and range to print each subject along with its index:
 # Example output: "Subject 0: Math"
-
 
 # Given:
 numbers = [5, 10, 15, 20]
