@@ -51,9 +51,23 @@ for applicant, score in zip(apc, credit_score):
 # Challenge:
 # Use a for loop and range to print each subject along with its index:
 # Example output: "Subject 0: Math"
+print(len(subjects))
+for index in range(len(subjects)-1):
+    print("Subjects " + str(index) + ": " + subjects[index])
 
+    
 # Given:
 numbers = [5, 10, 15, 20]
+total = 0
+for numbers in numbers:
+    total += number
+print("total: " , total)
 
+new_numbers = list(range(1, 260001))
+
+for numbers in new_numbers:
+    total += numbers:
+
+ print("total:" , total)
 # Challenge:
 # Use a for loop to add all the numbers and print the total.
