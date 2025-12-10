@@ -4,3 +4,20 @@
 
 # Challenge:
 # Count how many vowels are in the word.
+
+
+word = input("Enter a word: ")
+
+
+for letter in word:
+    print(letter)
+
+
+vowels = "aeiouAEIOU"
+count = 0
+
+for letter in word:
+    if letter in vowels:
+        count += 1
+
+print("Number of vowels:", count)
