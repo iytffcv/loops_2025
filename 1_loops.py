@@ -36,6 +36,18 @@ for subject in subjects:
                    continue
                print(number)
 
+
+apc= ["alice", "bob", "charlie", "David", "eve"]
+credit_score = [720, 680, 590, 610, 750]
+
+for applicant, score in zip(apc, credit_score):
+   
+   
+    if score < 600:
+        contine 
+    print(applicant + "approved for credit with score:" + str(score))
+
+
 # Challenge:
 # Use a for loop and range to print each subject along with its index:
 # Example output: "Subject 0: Math"
